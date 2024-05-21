@@ -1,0 +1,45 @@
+.biografia{
+    background-color: rgb(206, 215, 221);
+    text-align: justify;
+    width: 300px;
+    padding: 20px;
+    font-size: large;
+
+}
+.fotografia{
+    margin-top: 50px;
+    width: 75%;
+}
+.titulo{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 15%;
+    font-weight: bold;
+    color: aliceblue;
+}
+.textoBienvenida{
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+}
+.fondo{   
+  background: url('welcome.jpg') no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 600px;
+}
+
+.columna {
+    width:50%;
+    float:left;
+}
+  
+@media (max-width: 500px) {
+    
+    .columna {
+      width:auto;
+      float:none;
+    }
+}

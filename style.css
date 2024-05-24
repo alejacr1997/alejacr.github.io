@@ -13,21 +13,24 @@
 .titulo{
     font-size: 60px;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 20%;
     font-weight: bold;
     color: aliceblue;
+    box-shadow: inset;
 }
 .textoBienvenida{
     text-align: center;
     color: aliceblue;
     font-size: large;
+    padding: 10px 10px;
 }
 .fondo{   
-  background: url('welcome.jpg') no-repeat center center fixed;  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background-image: url('welcome.jpg');  
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  margin: 10px 10px;
   height: 600px;
 }
 
@@ -36,8 +39,7 @@
     float:left;
 }
   
-@media (max-width: 500px) {
-    
+@media (max-width: 500px) {  
     .columna {
       width:auto;
       float:none;

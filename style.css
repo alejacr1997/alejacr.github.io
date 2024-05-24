@@ -1,9 +1,7 @@
 .biografia{
-    background-color: rgb(206, 215, 221);
+    background-color: rgb(255, 255, 255);
     text-align: justify;
-    padding: 5% 5%;
     font-size: auto;
-    margin: 5px 5px;
     height: fit-content;
     align-content: center;
     vertical-align: middle;
@@ -46,11 +44,15 @@
 }
 .nombre {
     text-align: center;
-    padding: 5% 5%;
     margin: 5px 5px;
+    color: white;
+    font-weight: bold;
 }
 .datosContacto {
     padding-bottom: 5%;
     margin-bottom: 10ox;
+}
+.social-icon {
+    color: white;
 }
 

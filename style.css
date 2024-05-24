@@ -22,12 +22,19 @@
     padding-top: 15% 10%;
     font-weight: bold;
     color: aliceblue;
+    grid-row: 2 / 3;
 }
 .textoBienvenida{
     text-align: center;
     color: aliceblue;
     font-size: large;
     padding: 10px 10px;
+    grid-row: 3 / 4;
+}
+.paginaBienvenida {
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 5px;
 }
 .fondo{   
   background-image: url('welcome.jpg');  

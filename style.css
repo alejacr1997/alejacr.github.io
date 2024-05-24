@@ -13,10 +13,9 @@
 .titulo{
     font-size: 60px;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 15%;
     font-weight: bold;
     color: aliceblue;
-    box-shadow: inset;
 }
 .textoBienvenida{
     text-align: center;
@@ -26,12 +25,11 @@
 }
 .fondo{   
   background-image: url('welcome.jpg');  
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   padding-top: 20px;
   margin: 10px 10px;
-  height: 600px;
 }
 
 .columna {

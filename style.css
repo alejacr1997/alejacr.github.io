@@ -1,6 +1,6 @@
 .biografia{
     background-color: rgb(255, 255, 255);
-    text-align: justify;
+    text-align: center;
     font-size: auto;
     height: fit-content;
     align-content: center;
@@ -20,18 +20,22 @@
     padding-top: 15% 10%;
     font-weight: bold;
     color: aliceblue;
-    grid-row: 2 / 3;
+    background-color: rgb(49, 48, 48);
+    width: fit-content;
+    vertical-align: middle;
 }
 .textoBienvenida{
     text-align: center;
     color: aliceblue;
     font-size: large;
     padding: 10px 10px;
-    grid-row: 3 / 4;
+    background-color: rgb(49, 48, 48);
+    width: fit-content;
+    vertical-align: middle;
 }
 .paginaBienvenida {
     display: grid;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
     gap: 5px;
 }
 .fondo{   
@@ -47,6 +51,8 @@
     margin: 5px 5px;
     color: white;
     font-weight: bold;
+    background-color: rgb(49, 48, 48);
+    width: fit-content;
 }
 .datosContacto {
     padding-bottom: 5%;
@@ -54,5 +60,14 @@
 }
 .social-icon {
     color: white;
+    background-color: rgb(49, 48, 48);
 }
 
+.title-projects{
+    color: white;
+    background-color: rgb(49, 48, 48);
+    text-align: center;
+    padding: 1px;
+    font-size: 4em;
+    height: fit-content;
+}
